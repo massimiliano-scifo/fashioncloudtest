@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "outDir": "./bin",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "types": ["mocha"],
+        "typeRoots": [ "./node_modules/@types" ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowJs": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports" : true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./node_modules/",
+        "./tests/",
+        "./bin/"
+    ]
+}
